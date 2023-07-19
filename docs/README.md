@@ -2,13 +2,13 @@
 
 ## 基本情報
 
-|項目|内容|
-|---|---|
-|氏名|石川　透（Ishikawa Toru）|
-|性別|男|
-|居住地|東京都|
-|最終学歴|東京理科大学理工学部|
-|GitHub|<a href="https://github.com/1shikawa" target="_blank"><img alt="Github" src="https://img.shields.io/badge/1shikawa-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>|
+| 項目     | 内容                                                                                                                                                                                    |
+| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 氏名     | 石川　透（Ishikawa Toru）                                                                                                                                                               |
+| 性別     | 男                                                                                                                                                                                      |
+| 居住地   | 東京都                                                                                                                                                                                  |
+| 最終学歴 | 東京理科大学理工学部                                                                                                                                                                    |
+| GitHub   | <a href="https://github.com/1shikawa" target="_blank"><img alt="Github" src="https://img.shields.io/badge/1shikawa-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a> |
 
 ---
 
@@ -40,7 +40,7 @@
 DevOpsエンジニアとして、クラウド/コンテナネイティブベースの開発環境の構築運用業務に従事。
 
 - **プロジェクト規模：**
-    - 平均 3〜5 人チームでのスクラム開発
+    - 平均3〜5人チームでのスクラム開発
 - **役割：**
     - 要件定義、機能検討・調査、設計、実装、テスト、レビュー
 - **担当業務：**
@@ -50,15 +50,15 @@ DevOpsエンジニアとして、クラウド/コンテナネイティブベー�
     - Promtail,Loki,Grafana、FruentBit,ClouwWatchによるロギング基盤構築
     - Kubernetes(EKS)クラスター構築と開発スクラムチームへの展開
     - アプリケーション構成に基づいたManifest作成と管理、CI(Kubeconform,Polaris)実装
-    - DevSecOps(シフトレフト)を意識したGitOpsスタイルのCI/CDパイプライン構築
-    - Golang(Gin)による技術検証およびデモ用Webapp,API作成とコンテナ化(Docker化)
+    - DevSecOps（シフトレフト）を意識したGitOpsスタイルのCI/CDパイプライン構築
+    - Golang（Gin）による技術検証およびデモ用Webapp,API作成とコンテナ化（Docker化）
 - **環境・技術**
-    -  AWS関連(使用リソース、マネジメントサービス等)
-       - VPC,S3,Lambda,ELB,EC2,ASG,EKS(Kubernetes),ECR,EFS,Route53,ACM,SSM,IAM,RDS(MySQL|PostgreSQL),DynamoDB,SNS,CloudWatch,EventBridge,KMS,Secrets Manager,VPC Peering,Organizations,Control Tower,SSO
-    -  Kubernetes関連(使用ツール、カスタムオペレーター等)
-       - Helm/Helmfile,Kustomize,k9s,krew,ALB Controller,External DNS,External Secrets,GitLab Runner,ArgoCD,Kube-prometheus-stack,Loki-stack,Redash,Velero
+    -  AWS関連（使用リソース、マネジメントサービス等）
+       - VPC/S3/Lambda/ELB/EC2/ASG/EKS(Kubernetes)/ECR/EFS/Route53/ACM/SSM/IAM/RDS(MySQL|PostgreSQL)/DynamoDB/SNS/CloudWatch/EventBridge/KMS/Secrets Manager/VPC Peering/Organizations/Control Tower/SSO
+    -  Kubernetes関連（使用ツール、カスタムオペレーター等）
+       - Helm/Helmfile/Kustomize/k9s/krew/ALB Controller/External DNS/External Secrets/GitLab Runner/ArgoCD/Kube-prometheus-stack/Loki-stack/Redash/Velero
 - **その他：**
-    - DevOps推進活動のリード(課題抽出整理、スケジューリング、タスク実行)。
+    - DevOps推進活動のリード（課題抽出整理、スケジューリング、タスク実行）。
     - チーム内外に対するCI/CD勉強会の主催、ハンズオン及びQA対応。
 - **発揮したバリュー：**
   - GitLab CIやArgoCDについては未経験であったが、機能を速習することで短期間でキャッチアップ。CI/CD環境整備とチーム内外に対するDevSecOps導入推進を主導し、自動化による開発プロセスの改善や開発生産性向上に貢献。\
@@ -69,7 +69,7 @@ DevOpsエンジニアとして、クラウド/コンテナネイティブベー�
 DevOpsエンジニアとして、プライベートクラウド基盤ベースの全社成果物管理プラットフォームの開発・運用保守業務に従事。
 
 - **プロジェクト規模：**
-    - 平均 4〜6 人チームでのスクラム開発
+    - 平均4〜6人チームでのスクラム開発
 - **役割：**
     - 機能検討・調査、設計、実装、テスト、レビュー
 - **担当業務：**
@@ -87,19 +87,19 @@ DevOpsエンジニアとして、プライベートクラウド基盤ベース�
 #### 基幹系業務システム及び周辺システムの開発、運用管理
 コーポレートエンジニアとして、オンプレミスベースの基幹系業務システムや周辺システムの開発、運用保守業務に従事。
 - **プロジェクト規模：**
-    - 平均 3〜15 人チームでのウォーターフォール開発
+    - 平均3〜15人チームでのウォーターフォール開発
 - **役割：**
     - 要件定義、機能検討・調査、設計、実装、テスト、レビュー、ベンダー管理等
 - **担当業務：**
     - 経理関連業務効率化を図るPython,DjangoによるWebアプリ開発
-    - 基幹業務システムと電子契約サービスとの連携機能開発(Asteria,Oracle,MySQL)
+    - 基幹業務システムと電子契約サービスとの連携機能開発（Asteria,Oracle,MySQL）
     - Ansible/AWXによるCI/CD環境構築と定期メンテナンス作業やデプロイの自動化
     - ElasticStack(ElasticSearch,Kibana,Filebeat)によるログ統合管理基盤構築
     - 在庫管理システムリニューアルに伴う運用保守設計とバックアップ、監視基盤の構築
     - 基幹業務システムのバージョンアップに伴う影響調査分析と実行計画、ベンダー管理
     - 基幹業務システムや周辺システムの運用保守とヘルプデスク対応
 - **環境・技術**
-    - Windows Server,Linux,VMWare,Python,Django,Bash Script,Java,Tomcat,Weblogic,Docker,MySQL,PostgreSQL,Oracle,SQL Server,Ansible,ElasticSearch,Zabbix,Asteria,Kintone
+    - Windows Server/Linux/VMWare/Python/Django/Bash Script/Java/Tomcat/Weblogic/Docker/MySQL/PostgreSQL/Oracle/SQL Server/Ansible/ElasticSearch/Zabbix/Asteria/Kintone
 - **その他：**
     - TCO削減につながる施策の提案と実行。
     - 既存業務の自動化推進を主導。
@@ -111,7 +111,7 @@ DevOpsエンジニアとして、プライベートクラウド基盤ベース�
 #### 自社他社ソフトウェア、ハードウェアをベースとした顧客向けシステム提案、開発
 顧客対応システムエンジニアとして、様々な業界業種のお客様向けにオンプレミスベースのシステム提案・開発運用業務に従事。
 - **プロジェクト規模：**
-    - 平均 3〜20 人チームでのウォーターフォール開発
+    - 平均3〜20人チームでのウォーターフォール開発
 - **役割：**
     - 要件定義、機能検討・調査、設計、実装、テスト、レビュー、ベンダー管理等
 - **担当業務：**
@@ -122,9 +122,9 @@ DevOpsエンジニアとして、プライベートクラウド基盤ベース�
     - 銀行向け融資情報管理システムの開発、運用
     - 製造業・流通業向け図書管理システムの開発、運用
 - **環境・技術**
-    - Windows Server,VMWare,Java,Tomcat,Seasar,VBA,Oracle,MySQL,PostgreSQL,SAS,自社ソフト
+    - Windows Server/VMWare/Java/Tomcat/Seasar/VBA/Oracle/MySQL/PostgreSQL/SAS/自社ソフト
 - **その他：**
-    - 体系的知識を向上させるため積極的に資格を取得(Oracle,MCP,IPA関連)。
+    - 体系的知識を向上させるため積極的に資格を取得（Oracle,MCP,IPA関連）
 - **発揮したバリュー：**
   - ステークホルダー間調整や情報共有を心がけ、手戻りによるスケジュール遅延を防ぎ納期を遵守。
   - 顧客にシステム導入効果や満足度を実感頂き、次案件の継続受注に貢献。
