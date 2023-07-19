@@ -6,7 +6,7 @@
         "severity": "warning"
       },
       "max-comma": {
-        "max": 3
+        "max": 5
       },
       "max-ten": {
         "max": 3
@@ -58,7 +58,7 @@
     "preset-jtf-style": {
       "1.1.1.本文": true,
       "1.1.2.見出し": true,
-      "1.1.3.箇条書き": true,
+      "1.1.3.箇条書き": false,
       "1.1.5.図表のキャプション": true,
       "1.2.1.句点(。)と読点(、)": true,
       "1.2.2.ピリオド(.)とカンマ(,)": true,
