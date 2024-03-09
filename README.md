@@ -20,16 +20,16 @@
 ## 保有スキル
 実務経験のある技術やツールなどを記載しています。
 
-| カテゴリ           | 技術スタック                                                  | 経験年数 | 主な役割/担当業務                                                             |
-| ------------------ | ------------------------------------------------------------- | -------- | ----------------------------------------------------------------------- |
-| クラウド           | AWS<br>VPC \| S3 \| CloudFront \| Lambda \| ELB \| EC2 \| EFS \| ECR \| ECS \| Fargate \| EKS(Kubernetes) \| App Runner \| Route53 \| ACM \| IAM \| RDS(MySQL\|PostgreSQL) \| Aurora \| Aurora Serverless V2 \| DynamoDB \| Kinesis firehose \| SQS \| SNS \| SES \| CloudFormation \| CloudWatch \| SSM \| EventBridge \| Backup \| CloudTrail \| AWS Config \| GuardDuty \| Security Hub \| KMS \| Secrets Manager \| Parameter Store \| VPC Peering \| VPC Lattice               | 5年以上  | クラウドアーキテクチャ設計<br>クラウドインフラ構築・運用管理 |
-| インフラのコード化(IaC)、構成管理     | Terraform \| AWS CloudFormation \| Ansible \| Chef | 3年以上  | dev/stg/prod環境の構築と切り分け管理 |
-| CI/CD | GitLab CI/CD \| GitHub Actions \| ArgoCD \| Screwdriver \| Ansible AWX | 3年以上  | Self Hosted RunnerによるCI/CD基盤の構築<br>CI/CDパイプラインの設計・構築・運用|
-| モニタリング、オブザーバビリティ | Prometheus \| Grafana \| NewRelic \| Amazon CloudWatch \| ELK (Elasticsearch,Logstash,Kibana) \| Fluentd \| Fluent Bit \| Zabbix \| Redash | 3年以上  | 監視環境の設計・構築<br>ログ収集と分析基盤の構築 |
-| 言語、フレームワーク等 | Python(Flask,Django) \| Go(Gin) \| Bash Script | 3年以上  | 自動化スクリプト作成・運用<br>バッチアプリ作成<br>WebAPI作成 |
-| DB | MySQL \| PostgreSQL \| Oracle \| SQL Server \| SAS | 3年以上  | 設計構築・運用管理 |
-| 開発ツール | Docker \| Kubernetes(Helm,Helmfile,Kustomize,k9s,krew) \| LocalStack \| Artifactory \| Trivy \| Yamory | | コンテナ化<br>Manifest作成管理<br>コンテナ基盤運用管理 |
-| コミュニケーション         | Jira \| Confluence \| Miro \| Slack \| Mattermost \| Chatwork |        | 課題/プロジェクト管理、ドキュメント共有、ディスカッションなど |
+| カテゴリ           | 技術スタック                                                 | 主な役割/担当業務                                                             |
+| ------------------ | ------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| クラウド           | AWS<br>VPC \| S3 \| CloudFront \| Lambda \| ELB \| EC2 \| EFS \| ECR \| ECS \| Fargate \| EKS(Kubernetes) \| App Runner \| Route53 \| ACM \| IAM \| RDS(MySQL\|PostgreSQL) \| Aurora \| Aurora Serverless V2 \| DynamoDB \| Kinesis firehose \| SQS \| SNS \| SES \| CloudFormation \| CloudWatch \| SSM \| EventBridge \| Backup \| CloudTrail \| AWS Config \| GuardDuty \| Security Hub \| KMS \| Secrets Manager \| Parameter Store \| VPC Peering \| VPC Lattice               | クラウドアーキテクチャ設計<br>クラウドインフラ構築・運用管理 |
+| インフラのコード化(IaC)、構成管理     | Terraform \| AWS CloudFormation \| Ansible \| Chef | dev/stg/prod環境の構築と切り分け管理 |
+| CI/CD | GitLab CI/CD \| GitHub Actions \| ArgoCD \| Screwdriver \| Ansible AWX | Self Hosted RunnerによるCI/CD基盤の構築<br>CI/CDパイプラインの設計・構築・運用|
+| モニタリング、オブザーバビリティ | Prometheus \| Grafana \| NewRelic \| Amazon CloudWatch \| ELK (Elasticsearch,Logstash,Kibana) \| Fluentd \| Fluent Bit \| Zabbix \| Redash | 監視環境の設計・構築<br>ログ収集と分析基盤の構築 |
+| 言語、フレームワーク等 | Python(Flask,Django) \| Go(Gin) \| Bash Script | 自動化スクリプト作成・運用<br>バッチアプリ作成<br>WebAPI作成 |
+| DB | MySQL \| PostgreSQL \| Oracle \| SQL Server \| SAS | 設計構築・運用管理 |
+| 開発ツール | Docker \| Kubernetes(Helm,Helmfile,Kustomize,k9s,krew) \| LocalStack \| Artifactory \| Trivy \| Yamory | コンテナ化<br>Manifest作成管理<br>コンテナ基盤運用管理 |
+| コミュニケーション         | Jira \| Confluence \| Miro \| Slack \| Mattermost \| Chatwork | 課題/プロジェクト管理、ドキュメント共有、ディスカッションなど |
 
 
 ## 職務経歴詳細
