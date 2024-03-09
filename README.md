@@ -31,6 +31,9 @@
 | 開発ツール | Docker \| Kubernetes(Helm,Helmfile,Kustomize,k9s,krew) \| LocalStack \| Artifactory \| Trivy \| Yamory | コンテナ化<br>Manifest作成管理<br>コンテナ基盤運用管理 |
 | コミュニケーション         | Jira \| Confluence \| Miro \| Slack \| Mattermost \| Chatwork | 課題/プロジェクト管理、ドキュメント共有、ディスカッションなど |
 
+### 補足資料
+
+[アーキテクチャ概要](docs/Architecture.md)
 
 ## 職務経歴詳細
 
