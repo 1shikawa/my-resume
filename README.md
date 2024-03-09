@@ -7,25 +7,25 @@
 | 氏名     | 石川　透（Ishikawa Toru）|
 | 居住地   | 東京都杉並区 |
 | 最終学歴 | 東京理科大学理工学部 |
-| GitHub   | <a href="https://github.com/1shikawa" target="_blank"><img alt="Github" src="https://img.shields.io/badge/1shikawa-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a> |
-
+| GitHub   | <a href="https://github.com/1shikawa/my-resume" target="_blank"><img alt="Github" src="https://img.shields.io/badge/1shikawa-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a> |
 
 ## 概要
 
-- クラウドインフラの設計・構築管理、CI/CDを含むDevOps推進が現在の専門です。\
-  (元々はWindows系のエンジニアでしたが、現在はLinuxプラットフォームでの開発運用がメインです。)
-- 小規模〜中規模サービスの新規開発フェーズや、サービスのリプレイスフェーズにおいて価値提供できると考えています。その過程ではクラウドのマネジメントサービスや周辺エコシステムの活用や自動化を推進することで、開発生産性向上や運用効率化に貢献したいと思います。
-
+- クラウドアーキテクチャ設計、クラウドインフラ構築管理、CI/CDを含むDevOps推進が現在の専門です。
+(元々はオンプレミスインフラやWindows系のエンジニアでしたが、現在はLinuxプラットフォームでの開発運用がメインです。)
+- 小規模〜中規模サービスの新規開発フェーズやサービスのリプレイスフェーズにおいて価値提供できると考えています。
+顧客へより良いプロダクトを提供するためにアジリティ高くフィードバックサイクルを回していける仕組み作りに取り組んできました。
+そのためにクラウドのマネージドサービスや周辺エコシステムを活用することで開発プロセスの自動化や省力化を推進し、サービス開発や運用効率化に貢献できると思います。
 
 ## 保有スキル
 実務経験のある技術やツールなどを記載しています。
 
 | カテゴリ           | 技術スタック                                                 | 主な役割/担当業務                                                             |
 | ------------------ | ------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| クラウド           | AWS<br>VPC \| S3 \| CloudFront \| Lambda \| ELB \| EC2 \| EFS \| ECR \| ECS \| Fargate \| EKS(Kubernetes) \| App Runner \| Route53 \| ACM \| IAM \| RDS(MySQL\|PostgreSQL) \| Aurora \| Aurora Serverless V2 \| DynamoDB \| Kinesis firehose \| SQS \| SNS \| SES \| CloudFormation \| CloudWatch \| SSM \| EventBridge \| Backup \| CloudTrail \| AWS Config \| GuardDuty \| Security Hub \| KMS \| Secrets Manager \| Parameter Store \| VPC Peering \| VPC Lattice               | クラウドアーキテクチャ設計<br>クラウドインフラ構築・運用管理 |
+| クラウド           | AWS<br>VPC \| S3 \| CloudFront \| Lambda \| ELB \| EC2 \| EFS \| ECR \| ECS \| Fargate \| EKS(Kubernetes) \| App Runner \| Route53 \| ACM \| IAM \| RDS(MySQL\|PostgreSQL) \| Aurora \| Aurora Serverless V2 \| DynamoDB \| Kinesis firehose \| SQS \| SNS \| SES \| CloudFormation \| CloudWatch \| SSM \| EventBridge \| Backup \| CloudTrail \| AWS Config \| GuardDuty \| Security Hub \| KMS \| Secrets Manager \| Parameter Store \| VPC Peering \| VPC Lattice               | クラウドアーキテクチャ設計<br>クラウドインフラ構築・運用管理<br>新規サービスの調査検証と選定導入 |
 | インフラのコード化(IaC)、構成管理     | Terraform \| AWS CloudFormation \| Ansible \| Chef | dev/stg/prod環境の構築と切り分け管理 |
 | CI/CD | GitLab CI/CD \| GitHub Actions \| ArgoCD \| Screwdriver \| Ansible AWX | Self Hosted RunnerによるCI/CD基盤の構築<br>CI/CDパイプラインの設計・構築・運用|
-| モニタリング、オブザーバビリティ | Prometheus \| Grafana \| NewRelic \| Amazon CloudWatch \| ELK (Elasticsearch,Logstash,Kibana) \| Fluentd \| Fluent Bit \| Zabbix \| Redash | 監視環境の設計・構築<br>ログ収集と分析基盤の構築 |
+| モニタリング、オブザーバビリティ | Prometheus \| Grafana \| New Relic \| Amazon CloudWatch \| ELK (Elasticsearch,Logstash,Kibana) \| Fluentd \| Fluent Bit \| Zabbix \| Redash | 監視環境の設計・構築<br>ログ収集と分析基盤の構築 |
 | 言語、フレームワーク等 | Python(Flask,Django) \| Go(Gin) \| Bash Script | 自動化スクリプト作成・運用<br>バッチアプリ作成<br>WebAPI作成 |
 | DB | MySQL \| PostgreSQL \| Oracle \| SQL Server \| SAS | 設計構築・運用管理 |
 | 開発ツール | Docker \| Kubernetes(Helm,Helmfile,Kustomize,k9s,krew) \| LocalStack \| Artifactory \| Trivy \| Yamory | コンテナ化<br>Manifest作成管理<br>コンテナ基盤運用管理 |
@@ -35,37 +35,48 @@
 ## 職務経歴詳細
 
 ### フリーランス（2022/03〜現在）
-#### 会計系全社統合マスター管理サービスの新規開発（202３/0１〜04予定）
+#### 会計系全社統合マスター管理サービスの新規開発（2023/01〜04予定）
 インフラエンジニア(SRE)として、クラウドネイティブベースの新規プロダクト開発業務に従事。
 
 - **プロジェクト規模：**
     - 6人チームでのアジャイル(スクラム)開発
+      - PO/SM、TL、バックエンドDev、インフラDev、QA
 - **役割：**
     - インフラをメインとした要件定義、機能検討・調査、設計、実装、テスト、レビュー
 - **担当業務：**
-    - Terraformによる全インフラ環境のコード化と適用
+    - Terraformによる全インフラ環境のコード化と運用定着化
+    - AWS EKSとGitHub Actions Runner Controllerを利用したCI/CD基盤構築と運用管理
+    - ブランチ戦略に基づいたGitHub ActionsによるCI/CDパイプラインの設計構築と各種運用自動化
+      - アプリのビルド・テスト、コンテナイメージ作成、DBマイグレーション、ECSタスクローリングアップデート、ドキュメント更新等
+      - dev/stg/prod環境へ適宜手動・自動デプロイしリリース可能な仕組みを確立
     - AWS(ECS/CloudWatch)とNew Relicのインテグレーションとオブザーバビリティ環境構築
-    - あ
-    - クロスアカウントアクセス
-    - AWS EKSを利用したCI/CD基盤構築と運用管理
-    - ブランチ戦略に基づいたCI/CDパイプラインの設計構築と各種運用自動化
-    - Golang（Gin）による技術検証およびデモ用Webapp,API作成とコンテナ化
+      - アプリコンテナへのAPMエージェント組込み、各種メトリクスやログの転送と集約
+      - NRQLによる閾値アラートルールとSlackチャンネルへの通知設定
+      - 稼働状況モニタリングのためのダッシュボード作成
+    - New Relic APMを活用したボトルネック探索とレイテンシー改善のための取組み
+    - ECSスタンドアロンタスクを活用した踏み台、ポートフォワーディング、バッチコンテナ環境構築
+    - Fargate SPOTや夜間の自動スケールイン機能のスケジュール実行によるコスト最適化
+    - SLI/SLO達成のための負荷試験によるFargateタスクの必要スペックと常時起動数の算出とスケーリング設定
+    - セキュリティやレイテンシーを考慮したクロスアカウントアクセスの導入
+      - VPCピアリング、WAF、内部ALB/NLB、VPCエンドポイント(PrivateLink)、最小権限のAssumeロール
+    - DRを想定したデータソースのリージョン間の定期バックアップとレプリケーション設定
+    - Golang(Gin)による他サービスを模したモックAPI作成とコンテナ化、App Runnerへの自動デプロイ
 - **環境・技術**
     -  AWS
-    -  Kubernetes関連（カスタムオペレーター）
-       - GitHub Actions Runner Controller/New Relic
+    -  Kubernetes(カスタムオペレーター)
+       - GitHub Actions Runner Controller/New Relic Kubernetes integration
 - **その他：**
-    - インフラ(SRE)領域のリーディングと他メンバーへの
-    - チーム内外に対するCI/CD勉強会の主催、ハンズオン及びQA対応。
+    - インフラ(SRE)領域のリーディングとペア・モブプロによる他メンバーへの展開
+    -
 - **発揮したバリュー：**
-  - GitLab CIやArgoCDについては未経験であったが、機能を速習することで短期間でキャッチアップ。CI/CD環境整備とチーム内外に対するDevSecOps導入推進を主導し、自動化による開発プロセスの改善や開発生産性向上に貢献。\
-  また開発プロセス中に脆弱性チェックなどを組み込むことで継続的なセキュリティ対応にも貢献。
+  - ローカル開発環境の整備やインフラのコード化、CI/CDパイプラインの構築など、作業フローの効率化と各種自動化作業等に大きく貢献。予定していた本番商用リリースもほぼトラブル無く完遂。モダンな技術スタックの選定による開発者体験(DX)の向上施策を推進。
 
 #### クラウドインフラをベースとしたCI/CD環境構築とDevOps推進支援（2022/03〜2022/12）
 DevOpsエンジニアとしてクラウドネイティブベースの開発、本番環境の構築運用業務に従事。
 
 - **プロジェクト規模：**
     - 平均3〜5人チームでのアジャイル(スクラム)開発
+      - PO/SM、インフラDev
 - **役割：**
     - インフラをメインとした要件定義、機能検討・調査、設計、実装、テスト、レビュー
 - **担当業務：**
@@ -76,17 +87,16 @@ DevOpsエンジニアとしてクラウドネイティブベースの開発、�
     - Kubernetes(EKS)クラスター構築と開発スクラムチームへの展開
     - アプリケーション構成に基づいたManifest作成と管理、CI(Kubeconform,Polaris)実装
     - DevSecOps（シフトレフト）を意識したGitOpsスタイルのCI/CDパイプライン構築
-    - Golang（Gin）による技術検証およびデモ用Webapp,API作成とコンテナ化
+    - Golang(Gin)による技術検証およびデモ用Webapp,API作成とコンテナ化
 - **環境・技術**
     -  AWS
-    -  Kubernetes関連（使用ツール、カスタムオペレーター等）
+    -  Kubernetes(カスタムオペレーター)
        - ALB Controller/External DNS/External Secrets/GitLab Runner/ArgoCD/Kube-prometheus-stack/Loki-stack/Redash/Velero
 - **その他：**
     - DevOps推進活動のリード（課題抽出整理、スケジューリング、タスク実行）。
     - チーム内外に対するCI/CD勉強会の主催、ハンズオン及びQA対応。
 - **発揮したバリュー：**
-  - GitLab CIやArgoCDについては未経験であったが、機能を速習することで短期間でキャッチアップ。CI/CD環境整備とチーム内外に対するDevSecOps導入推進を主導し、自動化による開発プロセスの改善や開発生産性向上に貢献。\
-  また開発プロセス中に脆弱性チェックなどを組み込むことで継続的なセキュリティ対応にも貢献。
+  - GitLab CIやArgoCDについては未経験であったが、機能を速習することで短期間でキャッチアップ。CI/CD環境整備とチーム内外に対するDevSecOps導入推進を主導し、自動化による開発プロセスの改善や開発生産性向上に貢献。また開発プロセス中に脆弱性チェックなどを組み込むことで継続的なセキュリティ対応にも貢献。
 
 ### ヤフー株式会社（2021/04〜2022/03）
 #### 全社成果物管理プラットフォームの開発、運用管理
@@ -94,6 +104,7 @@ DevOpsエンジニアとして、プライベートクラウド基盤ベース�
 
 - **プロジェクト規模：**
     - 平均4〜6人チームでのスクラム開発
+      - PO、SM、バックエンドDev、インフラDev
 - **役割：**
     - 機能検討・調査、設計、実装、テスト、レビュー
 - **担当業務：**
@@ -154,14 +165,11 @@ DevOpsエンジニアとして、プライベートクラウド基盤ベース�
   - ステークホルダー間調整や情報共有を心がけ、手戻りによるスケジュール遅延を防ぎ納期を遵守。
   - 顧客にシステム導入効果や満足度を実感頂き、次案件の継続受注に貢献。
 
----
-
 ## 意欲・興味
 - バックエンド・クラウドインフラの新しい技術への興味関心が高く、今後も専門性を深めたいと考えています。
 - サービスメッシュ構成のマイクロサービス基盤の構築と運用に興味があります。
 - Golangによるバックエンドや基盤コード開発力を向上させたいと思っています。
 
----
 <div style="text-align: right;">
 以上
 </div>
