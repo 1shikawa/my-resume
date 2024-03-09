@@ -33,7 +33,7 @@
 
 ### 補足資料
 
-[アーキテクチャ概要](docs/Architecture.md)
+[アーキテクチャ概要](https://github.com/1shikawa/my-resume/blob/master/docs/Architecture.md)
 
 ## 職務経歴詳細
 
