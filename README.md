@@ -4,7 +4,7 @@
 
 | 項目     | 内容 |
 | -------- | ------------- |
-| 氏名     | 石川　透（Ishikawa Toru）|
+| 氏名     | 石川 透（Ishikawa Toru）|
 | 居住地   | 東京都杉並区 |
 | 最終学歴 | 東京理科大学理工学部 |
 | GitHub   | <a href="https://github.com/1shikawa/my-resume" target="_blank"><img alt="Github" src="https://img.shields.io/badge/1shikawa-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a> |
@@ -22,14 +22,14 @@
 
 | カテゴリ           | 技術スタック                                                 | 主な役割/担当業務                                                             |
 | ------------------ | ------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| クラウド           | AWS<br>VPC \| S3 \| CloudFront \| Lambda \| ELB \| EC2 \| EFS \| ECR \| ECS \| Fargate \| EKS(Kubernetes) \| App Runner \| Route53 \| ACM \| IAM \| RDS(MySQL\|PostgreSQL) \| Aurora \| Aurora Serverless V2 \| DynamoDB \| Kinesis firehose \| SQS \| SNS \| SES \| CloudFormation \| CloudWatch \| SSM \| EventBridge \| Backup \| CloudTrail \| AWS Config \| GuardDuty \| Security Hub \| KMS \| Secrets Manager \| Parameter Store \| VPC Peering \| VPC Lattice               | クラウドアーキテクチャ設計<br>クラウドインフラ構築・運用管理<br>新規サービスの調査検証と選定導入 |
-| インフラのコード化(IaC)、構成管理     | Terraform \| AWS CloudFormation \| Ansible \| Chef | dev/stg/prod環境の構築と切り分け管理 |
+| インフラ           | AWS (VPC \| S3 \| CloudFront \| Lambda \| ELB \| EC2 \| EFS \| ECR \| ECS \| Fargate \| EKS(Kubernetes) \| App Runner \| Route53 \| ACM \| IAM \| RDS(MySQL\|PostgreSQL) \| Aurora \| Aurora Serverless V2 \| DynamoDB \| Kinesis firehose \| SQS \| SNS \| SES \| CloudFormation \| CloudWatch \| SSM \| EventBridge \| Backup \| CloudTrail \| AWS Config \| GuardDuty \| Security Hub \| KMS \| Secrets Manager \| Parameter Store \| VPC Peering \| VPC Lattice)<br>OpenStack \| VMware               | クラウドアーキテクチャ設計<br>クラウドインフラ構築・運用管理<br>新規サービスの調査検証と選定導入 |
+| IaC、構成管理 | Terraform \| AWS CloudFormation \| Helm \| Helmfile \| Kustomize \| Ansible \| Chef | dev/stg/prod環境の構築と切り分け管理<br>インフラリソースの構成管理と標準化 |
 | CI/CD | GitLab CI/CD \| GitHub Actions \| ArgoCD \| Screwdriver \| Ansible AWX | Self Hosted RunnerによるCI/CD基盤の構築<br>CI/CDパイプラインの設計・構築・運用|
-| モニタリング、オブザーバビリティ | Prometheus \| Grafana \| New Relic \| Amazon CloudWatch \| ELK (Elasticsearch,Logstash,Kibana) \| Fluentd \| Fluent Bit \| Zabbix \| Redash | 監視環境の設計・構築<br>ログ収集と分析基盤の構築 |
-| 言語、フレームワーク等 | Python(Flask,Django) \| Go(Gin) \| Bash Script | 自動化スクリプト作成・運用<br>バッチアプリ作成<br>WebAPI作成 |
-| DB | MySQL \| PostgreSQL \| Oracle \| SQL Server \| SAS | 設計構築・運用管理 |
-| 開発ツール | Docker \| Kubernetes(Helm,Helmfile,Kustomize,k9s,krew) \| LocalStack \| Artifactory \| Trivy \| Yamory | コンテナ化<br>Manifest作成管理<br>コンテナ基盤運用管理 |
-| コミュニケーション         | Jira \| Confluence \| Miro \| Slack \| Mattermost \| Chatwork | 課題/プロジェクト管理、ドキュメント共有、ディスカッションなど |
+| モニタリング、オブザーバビリティ | Prometheus \| Grafana \| New Relic \| Amazon CloudWatch \| ELK (Elasticsearch,Logstash,Kibana) \| Fluentd \| Fluent Bit \| Zabbix \| Trivy \| Yamory \| Redash | 監視環境の設計・構築<br>ログ収集と分析基盤の構築<br>インシデント対応とアラート運用 |
+| 開発言語、フレームワーク等 | Python(Flask,Django) \| Go(Gin) \| Bash Script \| SQL | 自動化スクリプト作成・運用<br>バッチアプリやWebAPI作成 |
+| DB | MySQL \| PostgreSQL \| Oracle \| SQL Server \| SAS | データベース設計構築<br>バックアップ運用管理 |
+| 開発ツール | GitHub \| GitLab \| Docker \| Kubernetes(k9s,krew) \| LocalStack \| Artifactory | Dockerfile作成によるコンテナ化<br>Manifest作成と管理<br>コンテナ基盤の運用管理 |
+| コミュニケーション | Jira \| Confluence \| Miro \| Slack \| Mattermost \| Chatwork | 課題/プロジェクト管理、ドキュメント共有、ディスカッションなど |
 
 ### 補足資料
 
@@ -38,8 +38,8 @@
 ## 職務経歴詳細
 
 ### フリーランス（2022/03〜現在）
-#### 会計系全社統合マスター管理サービスの新規開発（2023/01〜04予定）
-インフラエンジニア(SRE)として、クラウドネイティブベースの新規プロダクト開発業務に従事。
+#### 会計系全社統合マスター管理サービスの新規開発（2023/01〜2024/04予定）
+インフラエンジニア(DevOps/SRE)として、クラウドネイティブベースの新規プロダクト開発業務に従事。
 
 - **プロジェクト規模**
     - 6人チームでのアジャイル(スクラム)開発
@@ -52,6 +52,8 @@
     - ブランチ戦略に基づいたGitHub ActionsによるCI/CDパイプラインの設計構築と各種運用自動化
       - アプリのビルド・テスト、コンテナイメージ作成、DBマイグレーション、ECSタスクローリングアップデート、ドキュメント更新等
       - dev/stg/prod環境へ適宜手動・自動デプロイしリリース可能な仕組みを確立
+    - イベント駆動(サーバレス)アーキテクチャの導入
+      - SQS、Lambda、S3、DynamoDB、SNSを利用したPub/Subファンアウト構成
     - AWS(ECS/CloudWatch)とNew Relicのインテグレーションとオブザーバビリティ環境構築
       - アプリコンテナへのAPMエージェント組込み、各種メトリクスやログの転送と集約
       - NRQLによる閾値アラートルールとSlackチャンネルへの通知設定
@@ -62,15 +64,15 @@
     - SLI/SLO達成のための負荷試験によるFargateタスクの必要スペックと常時起動数の算出とスケーリング設定
     - セキュリティやレイテンシーを考慮したクロスアカウントアクセスの導入
       - VPCピアリング、WAF、内部ALB/NLB、VPCエンドポイント(PrivateLink)、最小権限のAssumeロール
-    - DRを想定したデータソースのリージョン間の定期バックアップとレプリケーション設定
-    - Golang(Gin)による他サービスを模したモックAPI作成とコンテナ化、App Runnerへの自動デプロイ
+    - DRを想定したデータソースのリージョン間定期バックアップとレプリケーション設定
+    - Golang(Gin)による他サービスを模したモックAPI作成とコンテナ化、App Runnerへの自動デプロイとテストスクリプト作成実行
 - **環境・技術**
     -  AWS
     -  Kubernetes(カスタムオペレーター)
        - GitHub Actions Runner Controller/New Relic Kubernetes integration
 - **その他**
-    - インフラ(SRE)領域のリーディングとペア・モブプロによる他メンバーへの展開
-    - TODO:
+    - インフラ(SRE)領域のリーディングとペア・モブプロによるDevメンバーへの展開
+    - アジャイル(スクラム)開発未経験メンバーへのマインドセットや知見共有
 - **発揮したバリュー**
   - ローカル開発環境の整備やインフラのコード化、CI/CDパイプラインの構築など、作業フローの効率化と各種自動化作業等に大きく貢献。予定していた本番商用リリースもほぼトラブル無く完遂。モダンな技術スタックの選定による開発者体験(DX)の向上施策を推進。
 
